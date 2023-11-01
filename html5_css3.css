@@ -1,0 +1,43 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+ }
+ 
+ h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.grey{
+    background-color:grey;
+    margin: 20px 100px;
+    height: 45px;
+    display: flex;
+   align-items: center;
+   max-width:800px;
+   margin: auto;
+}
+.grey h2{
+    margin-left: 5px;
+}
+
+.container{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.container p{
+    text-align: justify;
+}
