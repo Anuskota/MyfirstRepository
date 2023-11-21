@@ -1,14 +1,19 @@
- *{
+
+
+*{
     margin: 0;
     padding: 0;
     font-family:sans-serif;
  }
+
+ 
  
  h1{
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
 }
+
 
 .grey{
     background-color:grey;
@@ -19,6 +24,8 @@
    max-width:800px;
    margin: auto;
 }
+
+
 .grey h2{
     margin-left: 5px;
 }
@@ -40,4 +47,16 @@
 }
 .container p{
     text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+.grey{
+
+    background-color: red; 
+}
+.container img{
+    width: 250px;
+    height: 250px;
+}
 }
